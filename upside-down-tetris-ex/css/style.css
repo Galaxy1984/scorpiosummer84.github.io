@@ -6,3 +6,41 @@
 
     Good luck, and have fun!
 */
+.tetris-block{
+    padding: 20px;
+    border-width: 12px;
+    border-style: outset;
+    display: inline-block;
+}
+.blue {
+    background-color: blueviolet;
+    border-color: blue;
+}
+
+.pink {
+    background-color: darkmagenta;
+    border-color: deeppink;
+}
+
+.green {
+    background-color: aqua;
+    border-color: darkgreen;
+}
+
+.orange {
+    background-color: darkorange;
+    border-color: peru;
+}
+
+.purple {
+     background-color: darkorchid;
+     border-color: mediumorchid;
+}
+
+.long {
+    padding: 25px 68px;
+}
+
+.med {
+    padding: 25px 45px;
+}
