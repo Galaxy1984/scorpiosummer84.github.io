@@ -4,14 +4,12 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: rgb(241, 226, 255);
 }
 
-#grid-layout {
-    display: grid;
-    grid-template-columns: 1fr 250px;
-    grid-template-areas: 
-        "content sidebar"
-    ;
+#flexbox {
+    display: flex;
+    
 }
 
 #sidebar {
