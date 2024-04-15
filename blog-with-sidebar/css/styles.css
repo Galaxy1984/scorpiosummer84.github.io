@@ -4,6 +4,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: rgb(251, 214, 220);
 }
 
 #grid-layout {
