@@ -1,8 +1,16 @@
 /* Drill 1 - Write your code solution below */
-
+#column-d1 {
+    align-items: left;
+    width: 50%;
+}
 
 /* Drill 2 - Write your code solution below */
+#column-d2 {
+    align-items: right;
+    width: 50%;
+    margin-right: 50%;
 
+}
 
 /* Drill 3 - Write your code solution below */
 
