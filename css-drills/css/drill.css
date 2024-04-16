@@ -53,8 +53,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
-        "cat cat cat"
-        "dog bird bird"
+        "cat dog bird"
     ;
 }
 #d5-cell1 {
