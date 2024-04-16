@@ -3,6 +3,9 @@
     margin: 0px;
     padding: 0px;
 }
+.center-column {
+    text-align: center;
+}
 .h4 {
     font-size: 25px;
 }
