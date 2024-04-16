@@ -6,12 +6,10 @@ body {
     font-family: sans-serif;
     background-color: rgb(241, 226, 255);
 }
-
 #flexbox {
     display: flex;
     
 }
-
 #sidebar {
     grid-area: sidebar;
     padding: 18px;
@@ -23,7 +21,6 @@ body {
     color: white;
     font-size: 18px;
 }
-
 #sidebar ul {
     background-color: #efefef;
     border: 1px solid turquoise;
@@ -31,21 +28,17 @@ body {
     list-style-type: none;
     padding: 0px 12px;
 }
-
 #sidebar a {
     color: turquoise;
     text-decoration: none;
 }
-
 #sidebar li {
     border-bottom: 1px solid turquoise;
     padding:  8px 0px;
 }
-
 #sidebar li:last-child{
     border-bottom:  0px;
 }
-
 #main {
     grid-area: content;
     margin: 0px 36px;
