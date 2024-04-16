@@ -1,0 +1,90 @@
+/* Drill 1 - Write your code solution below */
+#contanier-d1 {
+    display: grind;
+    grid-template-columns: 1fr , 50%, 1fr;
+
+}
+
+/* Drill 2 - Write your code solution below */
+#contanier-d2 {
+    display:grid;
+    grid-template-columns: 1fr, 2fr , 1fr;
+
+}
+
+/* Drill 3 - Write your code solution below */
+#container-d3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "one two three"
+    ;
+}
+#d3-cell1 {
+    grid-area: one;
+}
+#d3-cell2 {
+    grid-area: two;
+}
+#d3-cell3 {
+    grid-area: three;
+}
+
+/* Drill 4 - Write your code solution below */
+#containwe-d4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    " baby child toddler"
+    ;
+
+}
+#d4-cell1 {
+    grid-area: toddler;
+}
+#d4-cell2 {
+    grid-area: child;
+}
+#d4-cell3 {
+    grid-area: baby;
+}
+/* Drill 5 - Write your code solution below */
+#container-d5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "cat cat cat"
+        "dog bird bird"
+    ;
+}
+#d5-cell1 {
+    grid-area: cat;
+}
+#d5-cell2 {
+    grid-area: bird;
+}
+#d5-cell3 {
+    grid-area: dog;
+
+}
+/* Drill 6 - Write your code solution below */
+#container-d6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "one two"
+        "three three"
+    ;
+}
+
+#d6-cell1 {
+    grid-area: one;
+}
+#d6-cell2 {
+    grid-area: two;
+}
+#d6-cell3 {
+    grid-area: three; 
+
+}
+
