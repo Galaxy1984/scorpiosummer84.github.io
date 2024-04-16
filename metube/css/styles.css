@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#grid-layout {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-areas: 
+        "header header"
+        " sidebar main"
+    ;
+}
+#header {
+     grid-area: header;
+     padding: 0px 36px;
+}
+#header a {
+    text-decoration: none;
+}
+#header #Me {
+    color: black
+}
+#header #Tube {
+    background-color: blueviolet;
+    color: rgb(26, 26, 247);
+    padding: 4px;
+    border-radius: 12px;
+}
+
+#sidebar {
+    grid-area: sidebar;
+    padding: 0px 24px;
+}
+
+#sidebar ul{
+    padding: 12px 0px;
+    margin: 0px;
+    list-style-type: none;
+    border-bottom: 1px solid plum;
+}
+#sidebar ul a {
+    text-decoration: none;
+    color: black;
+    padding: 12px; 
+    display: block;
+}
+#sidebar ul a:hover {
+    background-color: rgb(9, 233, 158);
+    border-radius: 12px;
+}
+#main {
+    grid-area: main;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ugalaxy-item {
+    flex: 250px;
+    margin-right: 12px;
+    margin-bottom: 24px;
+}
+.ugalaxy-item .thumbnail-placeholder {
+    aspect-ratio: 16 / 9;
+    background:radial-gradient(at top left, rgb(132, 0, 255),rgb(0, 0, 235));
+    border-radius: 8px;
+}
+.ugalaxy-item h4 {
+    margin: 8px;
+}
+.metube-item h4 a {
+    text-decoration: none;
+    color: #111;
+    display: block
+}
+.ugalaxy-item a:hover {
+    text-decoration: underline;
+}
+.ugalaxy-item.video-detail {
+    margin: 8px;
+    font-size: 14px;
+}
+.ugalaxy-item .video-channel {
+    margin-bottom: 4px;
+}

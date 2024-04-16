@@ -1,7 +1,7 @@
 /* Drill 1 - Write your code solution below */
 #contanier-d1 {
-    display: grind;
-    grid-template-columns: 1fr , 50%, 1fr;
+     display: grid;
+    grid-template-columns: 1fr , 1fr;
 
 }
 
@@ -17,7 +17,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
-        "one two three"
+        "d3-cell d3-cell d3-cell"
     ;
 }
 #d3-cell1 {
@@ -31,22 +31,22 @@
 }
 
 /* Drill 4 - Write your code solution below */
-#containwe-d4 {
+#container-d4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
-    " baby child toddler"
+    " 1 2 3"
     ;
 
 }
 #d4-cell1 {
-    grid-area: toddler;
+    grid-area: 3;
 }
 #d4-cell2 {
-    grid-area: child;
+    grid-area: 2;
 }
 #d4-cell3 {
-    grid-area: baby;
+    grid-area: 1;
 }
 /* Drill 5 - Write your code solution below */
 #container-d5 {
