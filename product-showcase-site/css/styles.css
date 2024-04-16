@@ -1,49 +1,43 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
-
+.h4 {
+    font-size: 25px;
+}
 .col1 {
     background-color: deeppink;
 }
- 
 p { 
     font-family: gabriola;
     font-size: 20px;
 
 }
-
 .col2 {
     background-color: rgb(231, 231, 115);
 }
 
- h4{
+ h4 {
     font-family:segoe script;
     color:rgb(24, 229, 51)
 }
-
 .col3 {
     background-color: rgb(181, 3, 181);
 
 }
-
 .col4 {
     background-color: aqua;
 }
-
 .col5 {
     background-color: deeppink;
 }
-
 .col6 {
     background-color: rgb(231, 231, 115);
 }
-
 .col7 {
     background-color: rgb(181, 3, 181);
 }
-
 .sweet-dreams{
     background-color: aqua;
 }
