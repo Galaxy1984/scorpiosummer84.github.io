@@ -1,24 +1,3 @@
-/* #threecolumn {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
-    "column1 column2 column3"
-    ;
-}
-#column1 {
-    grid-area: column1;
-}
-#column2 {
-    grid-area: column2;
-}
-#column3 {
-    grid-area: column3;
-}
-.body {
-    margin: 0px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
-} */
 .threeColumnGrid{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -35,4 +14,14 @@
 }
 .productdescreiption {
     grid-area: productdecription;
+}
+
+.body {
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+} 
+
+.flex-container {
+    display: flex;
 }
