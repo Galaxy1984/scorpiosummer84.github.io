@@ -1,0 +1,56 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+*body {
+    color: #e0e0e0;
+}
+.card-title {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+.card-button {
+    display: inline-block;
+    padding: 20px 130px;
+    background-color: rgb(1, 152, 1);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.card-button:hover {
+    background-color: lightgreen;
+}
+.card-container1 {
+    background-color: #ffffff;
+    border: 1px soild #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+}
+.card-container2 {
+    background-color: #ffffff;
+    border: 1px soild #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+}
+.card-container3 {
+    background-color: #ffffff;
+    border: 1px soild #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+}
+.card-container4 {
+    background-color: #ffffff;
+    border: 1px soild #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+}
