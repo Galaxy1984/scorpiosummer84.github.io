@@ -1,5 +1,5 @@
-.threeColumnGrid{
-    display:grid;
+.threeColumnGrid {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
     "thumbnail mainproduct productdecrption" 
@@ -15,20 +15,19 @@
 .productdescreiption {
     grid-area: productdecription;
 }
-
 .body {
     margin: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
-} 
-
+}
 .flex-container {
     display: flex;
 }
 .flex-items {
-    display:block;
+    display: block;
     margin-top: 100px;
 }
+
 .logo {
     color: darkorange;
 
