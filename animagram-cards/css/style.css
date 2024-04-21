@@ -1,0 +1,50 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+.card-container {
+    box-shadow: 1px;
+    border: 1px soild;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 8px;
+}
+
+img {
+    width: 50%;
+    border-radius: 50%;
+    align-content: center;
+    align-self: center;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.flex-item {
+    flex-grow: 1;
+    flex-shrink: 0;
+    order: 2;
+}
+.h2 {
+    text-align: center;
+    align-content: center;
+}
+.p {
+    text-align: center;
+    text-size-adjust: 46px;
+    align-content: center;
+}
+.span{
+    text-align: center;
+}
+.i {
+    text-align: center;
+}
