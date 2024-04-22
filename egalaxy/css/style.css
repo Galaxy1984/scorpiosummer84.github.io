@@ -3,29 +3,42 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
     "thumbnail mainproduct productdecrption" 
-    ;
+ ;
 }
 .thumbnail {
     grid-area: thumbnail;
+
 }
 .mainproduct {
 
     grid-area: mainproduct;
+   
 }
 .productdescreiption {
     grid-area: productdecription;
+    color: blueviolet;
+    background-color: lightcyan;
+
 }
 .body {
     margin: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blueviolet;
+    background-color: lightcyan;
 
 }
 .flex-container {
     display: flex;
+    color: blueviolet;
+    background-color: lightcyan;
+
 }
 .flex-items {
     display: block;
     margin-top: 100px;
+    color: blueviolet;
+    background-color: lightcyan;
+
 }
 
 .logo {

@@ -44,7 +44,13 @@ img {
 }
 .span{
     text-align: center;
+    box-sizing: content-box;
+
 }
 .i {
+    text-align: center;
+}
+.h2 {
+    align-items: center;
     text-align: center;
 }
