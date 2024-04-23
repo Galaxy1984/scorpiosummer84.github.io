@@ -13,6 +13,7 @@
    border-radius: 50px;
    max-width: 350px;
    justify-content: space-between;
+   margin: 16px;
 }
 .card-style-2 .animagram-header {
     font-size: 30px;
