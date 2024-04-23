@@ -5,6 +5,18 @@
     "thumbnail mainproduct productdecrption" 
  ;
 }
+.h1 {
+    background: #cccccc;
+}
+.wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1em;
+}
+.primary {
+    max-width: 650px;
+    margin: 0 auto
+}
 .thumbnail {
     grid-area: thumbnail;
 
