@@ -19,11 +19,17 @@
     size-adjust: 50%;
 }
 #content {
-    border:1px blacksoild;
+    border:1px black soild;
 }
 .column3 {
     align-content: normal;
     display: flex;
+}
+.data-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
 h1 {
     color: navy;
@@ -50,6 +56,9 @@ h4 {
 #id-and-expiration div{
     color: blue;
     display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 #address{
     font-weight: bolder;

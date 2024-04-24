@@ -1,0 +1,35 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+* {
+    box-sizing: border-box;
+}
+.card-syle-3 {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px soild yellow;
+    margin: 0px auto;
+    padding: 10px;
+    background: rgb(222, 187, 14);
+}
+.pokemon-header {
+    display: flex;
+    justify-content: space-between;
+}
+.details {
+    text-align: center;
+}
+.decription {
+    margin: 30%;
+}
+.data{
+    text-align: center;
+}
