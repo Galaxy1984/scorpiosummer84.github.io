@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#hero {
+    background-image: url(../images/tea_l6.jpg);
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hero h1 {
+    background-color: #d8bfd8dd;
+    padding: 20px
+}
+#layout {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+}
+.basic-grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    border: 10px solid palevioletred;
+    padding: 24px;
+}
+.basic-grid-gallery img {
+    width: 100%;
+}
