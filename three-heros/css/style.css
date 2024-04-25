@@ -16,7 +16,7 @@ body {
 #hero h1 {
     background-color: #eca63ddd;
     padding: 20px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0px;
     font-size: 45px;
 }
@@ -60,3 +60,66 @@ body {
     background-color: rgb(213, 136, 35);
 }
 
+#hero-2 {
+    background-image: url(../images/thiland2.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+#hero-2 h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right:5vw;
+    color: blanchedalmond;
+}
+#hero-2 h4{
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+    color: aquamarine;
+}
+#hero-2 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: rgb(47, 100, 12);
+    color: blanchedalmond;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+#hero-3 {
+    background-image: url(../images/thailand3.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center ;
+   position: relative;
+}
+#hero-3 .hero-content {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+#hero-3 h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+    color: silver;
+
+}
+#hero-3 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+    color: orange;
+}
+#hero-3 a{
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: rgb(82, 21, 21);
+    color: goldenrod;
+    text-decoration: none;
+    padding: 24px;
+    margin:  5vh 5vw 10vh 0px;
+}
