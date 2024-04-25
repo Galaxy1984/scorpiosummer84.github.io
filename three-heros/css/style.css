@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: "Inter" , sans-serif;
+}
+#hero {
+    background-image: url(../images/thailand.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: bottom right;
+    display: flex;
+    align-items: center;
+}
+#hero h1 {
+    background-color: #eca63ddd;
+    padding: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    margin: 0px;
+    font-size: 45px;
+}
+#hero p {
+    margin: 10px 0px 20px;
+}
+#hero .btn{
+    display: inline-block;
+    border: 2px solid rgb(230, 182, 123);
+    padding: 15px 55px;
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+}
+#header {
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    border: 5px solid  rgb(213, 136, 35);
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0px auto;
+    color: rgb(255, 253, 251);
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    gap: 25px;
+    border: 2px solid rgb(79, 49, 8)
+}
+.nav a {
+    color: rgb(155, 96, 8);
+    padding: 10px 0px;
+    text-decoration: none;
+    transition: background-color 0.5s;
+}
+.nav a:hover {
+    background-color: rgb(213, 136, 35);
+}
+
