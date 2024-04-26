@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#hero {
+    background-image: url(../images/matte.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center top;
+    display: flex;
+    align-items: center;
+}
+#hero h1 {
+    background-color: rgb(178, 38, 183);
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+    font-size: 25px;
+}
+#hero .container {
+    color: rgb(3, 255, 217);
+}
+#hero .btn{
+    display: inline-block;
+    border: 2px solid aquamarine;
+    padding: 15px 55px;
+    background-color: aquamarine;
+    text-align: center;
+
+    text-decoration: none;
+    color: rgb(178, 38, 183);
+    margin: 15px;
+}
+#header {
+    background-color: rgb(106, 241, 246);
+    display: flex;
+    justify-content: center;
+    border: 5px solid  rgb(172, 83, 244);
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0px auto;
+    color: rgb(110, 21, 218);
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    gap: 25px;
+    border: 2px solid rgb(127, 24, 174)
+}
+.nav a {
+    color: rgb(80, 94, 250);
+    padding: 10px 0px;
+    text-decoration: none;
+    transition: background-color 0.5s;
+}
+.nav a:hover {
+    background-color: rgb(178, 38, 183);
+}
+#hero-2 {
+    background-color:rgb(178, 38, 183) ;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#layout {
+    max-width: 800px;
+    margin: 40px auto;
+    
+}
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    border: 10px solid rgb(88, 45, 163);
+    padding: 35px;
+    grid-auto-rows: 150px;
+}
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+#hero-2 .btn{
+    display: inline-block;
+    border: 2px solid aquamarine;
+    padding: 15px 55px;
+    background-color: aquamarine;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(178, 38, 183);
+    margin: 15px;
+}
+.card {
+    border: 3px solid aqua;
+    color: rgb(234, 32, 234);
+    
+}
+#card-container {
+    border: 1px solid rgb(178, 38, 183);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+}
+.card-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: aqua;
+    color: rgb(178, 38, 183);
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+} 
+.card-button-hover {
+    background-color: rgb(178, 38, 183);
+}

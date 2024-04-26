@@ -23,6 +23,9 @@ body {
 #hero p {
     margin: 10px 0px 20px;
 }
+#hero .container {
+    color: blanchedalmond;
+}
 #hero .btn{
     display: inline-block;
     border: 2px solid rgb(230, 182, 123);
@@ -97,10 +100,13 @@ body {
     background-position: center ;
    position: relative;
 }
-#hero-3 .hero-content {
-    position: absolute;
-    top: 10%;
-    left: 15%;
+#hero {
+    background-size: cover;
+    height: 100vh;
+    background-position: bottom right;
+    display: flex;
+    align-items: center;
+
 }
 #hero-3 h2 {
     font-size: 8vw;
