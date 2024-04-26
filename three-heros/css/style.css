@@ -66,11 +66,9 @@ body {
 .nav-container {
     color: blanchedalmond;
 }
-
 .nav a:hover {
     background-color: rgb(213, 136, 35);
 }
-
 #hero-2 {
     background-image: url(../images/thiland2.jpg);
     background-size: cover;
