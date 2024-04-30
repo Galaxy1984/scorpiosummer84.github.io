@@ -1,18 +1,14 @@
 /* Drill 6 - Write your code solution below */
 {   
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
 }
-
-
 /* Drill 7 - Write your code solution below */
 {   
     display: flex;
     justify-content: space-between;
-    align-items:content
-    
+    align-items:content    
 }
-
 
 /* Drill 8 - Write your code solution below */
 #container-8 {
