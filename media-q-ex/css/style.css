@@ -17,6 +17,8 @@ h2,
 h3,
 a {
     font-family: 'Secular One', sans-serif;
+    font-size: 15px;
+
 }
 
 h4,
@@ -25,12 +27,12 @@ p {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 25px;
     margin-bottom: 0;
 }
 
 h4 {
-    font-size: 18px;
+    font-size: 10px;
     margin-top: 4px;
 }
 
@@ -118,7 +120,19 @@ a {
 #content-container {
     max-width: 1000px;
     margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat( 1, 1px);
+    gap: 10px;
+    align-items: center;
 }
+.column {
+    flex: 50%;
+    padding: 5px;
+}
+.row {
+    display: flex;
+}
+
 
 /****************************************************************************
   Hero styles
@@ -137,11 +151,11 @@ a {
 }
 
 #hero h1 {
-    font-size: 120px;
+    font-size: 75px;
 }
 
 #hero h3 {
-    font-size: 60px;
+    font-size: 45px;
 }
 
 /****************************************************************************
@@ -159,6 +173,7 @@ a {
     margin-top: 12px;
     min-width: 150px;
     transition: transform 0.25s;
+    text-align: center;
 }
 
 #hero a:hover,
@@ -172,6 +187,9 @@ a {
 .three-cards,
 .two-cards {
     display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
@@ -211,3 +229,9 @@ a {
 ****************************************************************************/
 
 /* TODO: Add your media query code here */
+@media only screen and (max-width: 
+768px) {
+body   {
+    background-color: lightblue;
+    }
+}
