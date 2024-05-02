@@ -54,48 +54,149 @@ body {
     justify-content: space-between;
 }
 h3 {
-    color: blanchedalmond;
+    color: rgb(223, 199, 162);
 }
 #navbar-bottom a {
     text-decoration: none;
     color: orange;
     padding: 12px 0px;
 }
-#hero-2 {
-    background-color:rgb(18, 154, 18);
-    background-size: cover;
-    height: 100%;
+body {
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.content-column-2 {
+    width: 800px;
+    margin: 0px auto;
+}
+
+#navbar-top-2 {
+    background: linear-gradient(to bottom, rgb(191, 8, 8), #70010c);
+}
+
+#navbar-top-2 .content-column-2 {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
+}  
+
+#navbar-top-2 a {
+    text-decoration: none;
+    color: rgb(21, 14, 1);
+    padding: 24px 0px;
+}
+
+#navbar-top-2 .content-column-2 div a {
+    padding: 24px;
+}
+
+#navbar-top-2 .cta-buttom {
+    background-color: rgb(36, 24, 5);
+    color: rgb(238, 155, 31);
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+}
+
+#navbar-2-bottom {
+    background: linear-gradient(to bottom, rgb(24, 4, 4), rgb(92, 30, 30));
+}
+
+#navbar-2-bottom .content-column-2 {
+    display: flex;
+    justify-content: space-between;
+}
+h3 {
+    color: rgb(143, 96, 25);
+}
+#navbar-2-bottom a {
+    text-decoration: none;
+    color: rgb(143, 96, 25);
+    padding: 12px 0px;
+}
+body {
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.content-column-3 {
+    width: 800px;
+    margin: 0px auto;
+}
+
+#navbar-top-3 {
+    background: linear-gradient(to bottom, orange, red orange);
+}
+
+#navbar-top-3 .content-column-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+
+#navbar-top-3 a {
+    text-decoration: none;
+    color: black;
+    padding: 24px 0px;
+}
+
+#navbar-top-3 .content-column-3 div a {
+    padding: 24px;
+}
+
+#navbar-top-3 #logo img {
+    width: 150px;
+}
+
+#navbar-top-3 .cta-buttom {
+    background-color: black;
+    color: orange;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+}
+
+#navbar-bottom-3 {
+    background: linear-gradient(to bottom, black, rgb(42, 40, 40));
+}
+
+#navbar-bottom-3 .content-column-3 {
+    display: flex;
+    justify-content: space-between;
+}
+h3 {
+    color: black;
+}
+#navbar-bottom-3 a {
+    text-decoration: none;
+    color: orange;
+    padding: 12px 0px;
 }
 #layout {
     max-width: 800px;
     margin: 40px auto;
     
 }
-.gallery {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 24px;
-    border: 10px solid orange;
-    padding: 35px;
-    grid-auto-rows: 150px;
+.coupon {
+    border: 5px dotted #bbb;
+    width: 80%;
+    border-radius: 15px;
+    margin:  0 auto;
+    max-width: 600px;
 }
-.gallery img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-
+.container {
+    padding: 2px 16px;
+    background-color: #f1f1f1;
 }
-#hero-2 .btn{
-    display: inline-block;
-    border: 2px solid brown;
-    padding: 15px 55px;
-    background-color: brown;
-    text-align: center;
-    text-decoration: none;
-    color: rgb(5, 198, 5);
-    margin: 15px;
+.promo {
+    background: #ccc;
+    padding: 3px;
 }
-
+.expire {
+    color: red;
+}
