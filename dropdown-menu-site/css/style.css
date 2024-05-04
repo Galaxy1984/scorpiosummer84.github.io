@@ -4,13 +4,18 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ffffff;
 }
 #navbar {
-    background: linear-gradient(to bottom, green, #3e6d3e);
+    background: linear-gradient(to bottom, rgb(171, 212, 20), #929415);
     display: flex;
     align-items: center;
+    
 }
-
 #navbar a {
     text-decoration: none;
     color: white;
@@ -23,24 +28,22 @@ body {
 
 #navbar #logo img {
     width: 150px;
+    border-radius: 50%;
 }
 #navbar {
-    background: linear-gradient(to bottom, #109cb8, #0e5b96);
+    background: linear-gradient(to bottom, #2fd26b, #18da18);
     display: flex;
     align-items: center;
 }
-
 #navbar a {
     display: inline-block;
     text-decoration: none;
     color: white;
     padding: 24px;
 }
-
 #navbar a:hover {
-    background: linear-gradient(to top, #109cb8, #0e5b96);
+    background: linear-gradient(to top, rgb(112, 42, 42), rgb(74, 36, 36));
 }
-
 #navbar #logo {
     margin-right: auto;
     font-weight: bold;
@@ -49,9 +52,6 @@ body {
     padding-bottom: 12px;
 }
 
-/*
-    Dropdown styling ********************************************
-*/
 .dropdown-container {
     position: relative;
 }
@@ -63,67 +63,68 @@ body {
     transition: 
         opacity 0.25s,
         visibility 0.25s;
-
-    /*
-        If your dropdown menu seems to be placed
-        behind content on your page, you may need
-        to include a z-index, which pull it 
-        closer to you as a viewer.
-    */
-    z-index: 10;
+        z-index: 10;
 }
-
-/*
-    This selector targets dropdown-containers
-    that are the last child of their parent,
-    and looks inside of them for a dropdown-menu.
-
-    If found, we target it and anchor it
-    to the right of its parent container
-*/
 .dropdown-container:last-child .dropdown-menu {
     right: 0px;
 }
-
-/*
-    This is the selector responsible for
-    revealing the dropdown menu.
-
-    Note that the :hover pseudo-class is 
-    attached to the CONTAINER, not the MENU.
-
-    We can't hover over the menu when it's
-    hidden; we only want it to display when
-    the trigger link in the container is 
-    hovered over.
-*/
 .dropdown-container:hover .dropdown-menu {
     opacity: 1;
     visibility: visible;
 }
-
 .dropdown-menu a {
-    background-color: darkslateblue;
+    background-color: brown;
     width: 100%;
     min-width: 200px;
 }
-
-/*
-    We need to be a bit more specific with
-    our selectors in order to override the
-    anchor hover state we declared earlier.
-
-    To do so, we need to include both
-    #navbar and .dropdown-menu.
-
-    Also note, using background-color
-    won't work, because in our original
-    anchor hover, we used the background
-    property to set a linear-gradient().
-
-    So, to override it, we need to use
-    the same shorthand background property.
-*/
 #navbar .dropdown-menu a:hover {
-    background: slateblue;
+    background: rgb(54, 176, 54);
+}
+.column {
+    float: center;
+    width: 50%;
+    padding: 0px 10px ;
+}
+.card {
+    display: grid;
+    grid-template-columns: none;
+    border: 1px solid rgb(111, 194, 111);
+    border-radius: 8px;
+    padding: 26px;
+    text-align: center;
+    background-color: #f1f1f1;
+    grid-gap: 20px;
+    margin: 10px;
+}
+.single-column {
+    height: 400px;
+    width: 50%; 
+    margin-left: 25%;
+    background-color: rgb(231, 240, 231);
+    color: black;
+}
+.card img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 100%;
+}
+.card-title {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+.card text {
+    font-size: 4rem;
+    color: #070707;
+}
+.card-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #18da18;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.card-button:hover {
+    background-color: #cee4ce;
 }
