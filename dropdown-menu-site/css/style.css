@@ -108,15 +108,19 @@ body {
     border-top-right-radius: 8px;
     width: 100%;
 }
+.card-intro {
+    color: #18da18;
+}
 .card-title {
     font-size: 1.5rem;
     margin-top: 10px;
-}
-.card text {
-    font-size: 4rem;
     color: #070707;
 }
-.card-button {
+.card-text {
+    font-size: 1rem;
+    color: #070707;
+}
+.btn-btn-primary {
     display: inline-block;
     padding: 10px 20px;
     background-color: #18da18;
@@ -127,4 +131,7 @@ body {
 }
 .card-button:hover {
     background-color: #cee4ce;
+}
+.nohover {
+    pointer-events: none;
 }
