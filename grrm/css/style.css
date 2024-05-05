@@ -3,7 +3,6 @@
 * {
     box-sizing: border-box;
 }
-
 body {
     background-image: 
         linear-gradient(#DDDDDD66, #DDDDDD66),
@@ -439,54 +438,58 @@ body {
     Media Queries Styling
 **************************************************************/
 /* TODO: Write your media queries here */
-@media screen and (max-width:
-1000px) and (min-width: 801px) {
-body { background-color: lightblue;
-}
-}
-@media screen and (max-width: 800px) { 
-body { background-color: lightblue;
-}
-}
 
-#grid-layout {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    text-align: center;
+/* CSS for tablet */
+@media screen and (max-width: 1000px) and (min-width: 801px) {
+    #grid-layout {
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-areas: "card-1 card-2 card-3";
+    }
+
+    header h1 {
+        font-size: 24px; 
+    }
+
+    #nav {
+        flex-wrap: wrap; 
+    }
+
+    #nav a {
+        flex: 0 0 33.33%; 
+    }
 }
-#column .grid-layout  {
-    float: left;
-    width: 33.33%;
-}
-#row::after .grid-layout {
-    content: "";
-    display: grid;
-    clear: both;
-}
-.card-1 .card-2 .card-3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    text-align: center;
-}
-#h1 {
-    font-size: 20px;
-}
-#nav {
-    display: flex;
-    text-wrap: wrap;
-    width: 800px;
-}
-#grid-layout {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-.more-appearances-container .next-publication-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    text-align: center; 
-}
-.text-container .ad-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    text-align: center; 
-}
+@media screen and (max-width: 800px) {
+    #grid-layout {
+        grid-template-columns: 1fr; 
+        grid-template-areas: "card-1" "card-2" "card-3";
+    }
+
+    #shield-image,
+    #search-bar,
+    #search-button {
+        display: none; 
+    }
+
+    header {
+        flex-direction: column; 
+    }
+
+    header h1 {
+        font-size: 20px; 
+
+    #nav {
+        flex-wrap: wrap; 
+    }
+
+    #nav a {
+        flex: 0 0 50%; 
+    }
+
+    #card-1,
+    #card-2,
+    #card-3,
+    #grid-layout {
+        padding: 0;
+        margin: 0;
+        background-color: transparent;
+    }
