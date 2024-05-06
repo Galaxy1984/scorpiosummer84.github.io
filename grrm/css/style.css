@@ -9,7 +9,6 @@ body {
         url("../images/granite.jpg");
     background-size: cover;
 }
-
 /**************************************************************
     Grid setup and grid area assignments
 **************************************************************/
@@ -493,3 +492,4 @@ body {
         margin: 0;
         background-color: transparent;
     }
+}
