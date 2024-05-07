@@ -8,9 +8,6 @@
 */
 .block {
     margin: 8px;
-    display: block;
-}
-.block-styled {
     display: inline-block;
 }
 .row {
@@ -18,87 +15,85 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-}
-.column1 {
-    display: flex;
-    flex-direction: row;
-    flex-basis: 100%;
-    flex: 1;
+    justify-content: center;
 }
 .post-it1 {
     background-color: rgb(226, 13, 144);
-    height: 100px;
+    height: 150px;
     box-shadow: 16px 16px 8px rgb(242, 137, 226);
     border-radius: 10px 6px 0px;
-    margin: 8px 0px;
+    margin: 8px;
+    width: 200px;
 }
 .post-it2 {
     background-color: rgb(73, 183, 177);
-    height: 100px;
-    width: 150px;
+    height: 150px;
+    width: 200px;
     box-shadow: 16px 16px 8px rgb(73, 234, 223);
     border-radius: 10px 6px 10px;
-    margin: 8px 0px;
+    margin: 8px;
 }
 .post-it3 {
     background-color: green;
-    height: 100px;
+    height: 150px;
+    width: 200px;
     box-shadow: 16px 16px 8px darkgreen;
     border-radius: 10px 6px 0px;
-    margin: 8px 0px;
+    margin: 8px;
 }
 .post-it4 {
     background-color: rgb(225, 225, 32);
-    height: 100px;
+    height: 150px;
+    width: 200px;
     box-shadow: 16px 16px 8px rgb(222, 234, 118);
     border-radius: 10px 6px 0px;
-    margin: 8px 0px;
+    margin: 8px;
 }
 .row-2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: center;
 } 
-.column-2 {
-    display: flex;
-    flex-direction: row;
-    flex-basis: 100%;
-    flex: 1;
-}
 .post-it {
     background-color: rgb(117, 24, 179);
-    height: 100px;
+    height: 150px;
+    width: 200px;
     box-shadow: 16px 16px 8px rgb(141, 109, 155);
     border-radius: 10px 6px 0px;
-    margin: 8px 0px; 
+    margin: 8px; 
 }
 .post-it-a {
     background-color: rgb(231, 46, 61);
-    height: 100px;
+    height: 150px;
+    width: 200px;
     box-shadow: 16px 16px 8px rgb(90, 0, 0);
     border-radius: 10px 6px 0px;
-    margin: 8px 0px;
+    margin: 8px;
 
 }
 .post-it-b {
     background-color: rgb(201, 84, 11);
-    height: 100px;
+    height: 150px;
+    width: 200px;
     box-shadow: 16px 16px 8px rgb(206, 117, 39);
     border-radius: 10px 6px 0px;
-    margin: 8px 0px;
+    margin: 8px;
 }
 .post-it-c {
     background-color: rgb(128, 0, 90);
-    height: 100px;
+    height: 150px;
+    width: 200px;
     box-shadow: 16px 16px 8px rgb(211, 51, 123);
     border-radius: 10px 6px 0px;
-    margin: 8px 0px;
+    margin: 8px;
 }
 .post-it-d {
     background-color: rgb(0, 115, 128);
-    height: 100px;
+    height: 150px;
+    width: 200px;
     box-shadow: 16px 16px 8px rgb(27, 145, 154);
     border-radius: 10px 6px 0px;
-    margin: 8px 0px;
+    margin: 8px;
 }
