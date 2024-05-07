@@ -1,0 +1,29 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+* {
+    box-sizing: border-box;
+} 
+.image1 {
+    border: 10px ridge darkgreen;
+    padding: 15px;
+    margin: 24px;
+    background-color: bisque;
+} 
+.image2 {
+    border: 10px ridge rgb(57, 0, 100);
+    padding: 15px;
+    margin: 24px;
+    background-color: yellow;
+}
+.image3 {
+    border: 10px ridge rgb(100, 62, 0);
+    padding: 15px;
+    margin: 24px;
+    background-color: lightcoral;
+}
