@@ -1,0 +1,104 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+.post-it-wrapper {
+    margin: 15px;
+    background-color: tan;
+  }
+  
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+.column1 {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+    flex: 1;
+  }
+  
+.post-it1 {
+    background-color: orange;
+    height: 100px;
+    box-shadow: 16px 16px 8px darkgreen;
+    border-radius: 10px 6px 0px;
+}
+  
+.post-it2 {
+    background-color: blue;
+    height: 100px;
+    box-shadow: 16px 16px 8px darkgreen;
+    border-radius: 10px 6px 0px;
+    margin: 5px;
+}
+  
+.post-it3 {
+    background-color: green;
+    height: 100px;
+    box-shadow: 16px 16px 8px darkgreen;
+    border-radius: 10px 6px 0px;
+    margin: 5px;
+}
+.post-it4 {
+    background-color: orange;
+    height: 100px;
+    box-shadow: 16px 16px 8px darkgreen;
+    border-radius: 10px 6px 0px;
+    margin: 5px;
+}
+.row-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+} 
+.column-2 {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+    flex: 1;
+}
+.post-it {
+    background-color: blue;
+    height: 100px;
+    box-shadow: 16px 16px 8px darkgreen;
+    border-radius: 10px 6px 0px;
+}
+  
+.post-it-a {
+    background-color: green;
+    height: 100px;
+    box-shadow: 16px 16px 8px darkgreen;
+    border-radius: 10px 6px 0px;
+    margin: 5px;
+
+}
+.post-it-b {
+    background-color: green;
+    height: 100px;
+    box-shadow: 16px 16px 8px darkgreen;
+    border-radius: 10px 6px 0px;
+    margin: 5px;
+}
+.post-it-c {
+    background-color: green;
+    height: 100px;
+    box-shadow: 16px 16px 8px darkgreen;
+    border-radius: 10px 6px 0px;
+    margin: 5px;
+}
+.post-it-d {
+    background-color: green;
+    height: 100px;
+    box-shadow: 16px 16px 8px darkgreen;
+    border-radius: 10px 6px 0px;
+    margin: 5px;
+}
