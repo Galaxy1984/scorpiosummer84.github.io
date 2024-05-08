@@ -12,7 +12,7 @@ body {
 }
 #navbar a {
     text-decoration: none;
-    color: white;
+    color: rgb(249, 169, 182);
     padding: 24px;
 }
 #navbar #logo {
@@ -28,16 +28,16 @@ body {
 }
 #footer a {
     text-decoration: none;
-    color: white;
+    color:rgb(249, 169, 182);
 }
 #footer-navbar {
-    width: 800px;
+    width: 850px;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
 }
 #footer-columns-navbar {
-    width: 800px;
+    width: 850px;
     margin: 0px auto;
     padding: 48px 0px;
     display: flex;
@@ -51,4 +51,49 @@ body {
     width: 800px;
     margin: 48px auto;
     font-size: 24px;
+}
+#hero {
+    background-image: url(../images/mushroom-wrap.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: bottom right;
+    display: flex;
+    align-items: center;
+}
+#hero h1 {
+    background-color: #c7d10add;
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+    font-size: 45px;
+}
+#hero p {
+    margin: 10px 0px 20px;
+}
+.hero content{
+    color: rgb(49, 160, 24);
+}
+
+#hero .container {
+    color: rgb(248, 243, 236);
+}
+#hero .btn{
+    display: inline-block;
+    border: 2px solid rgb(25, 95, 27);
+    padding: 15px 55px;
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+}
+#header {
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    border: 5px solid  rgb(213, 136, 35);
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0px auto;
+    color: rgb(255, 253, 251);
 }
