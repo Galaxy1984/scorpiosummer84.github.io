@@ -4,6 +4,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: lightgray;
 }
 #navbar {
     background: linear-gradient(to bottom, green, #3e6d3e);
@@ -20,32 +21,6 @@ body {
 }
 #navbar #logo img {
     width: 150px;
-}
-#footer {
-    background: linear-gradient(to bottom, green,#3e6d3e);
-    color: white;
-    padding: 12px;
-}
-#footer a {
-    text-decoration: none;
-    color:rgb(249, 169, 182);
-}
-#footer-navbar {
-    width: 850px;
-    margin: 0px auto;
-    display: flex;
-    justify-content: space-between;
-}
-#footer-columns-navbar {
-    width: 850px;
-    margin: 0px auto;
-    padding: 48px 0px;
-    display: flex;
-    justify-content: space-between;
-}
-#footer-columns-navbar a {
-    display: block;
-    padding: 8px 0px;
 }
 #layout {
     width: 800px;
@@ -83,7 +58,7 @@ body {
     padding: 15px 55px;
     text-align: center;
     text-decoration: none;
-    color: whitesmoke;
+    color: grey;
 }
 #header {
     background-color: burlywood;
@@ -96,4 +71,66 @@ body {
     max-width: 1200px;
     margin: 0px auto;
     color: rgb(255, 253, 251);
+}
+.three-cards,
+.two-cards {
+    display: flex;
+}
+
+.card {
+    border: 2px solid indigo;
+    color: indigo;
+    margin: 48px 24px 24px;
+    padding: 12px 12px 24px;
+    text-align: center;
+    box-shadow: 4px 4px 8px 0px grey;
+    flex: 1;
+}
+
+.card p {
+    font-size: 18px;
+}
+
+.three-cards {
+    margin-top: 48px;
+}
+
+.two-cards {
+    align-items: center;
+    margin: 48px 0px;
+}
+
+.two-cards .card {
+    border: 0px;
+    box-shadow: none;
+}
+
+.two-cards .card img {
+    width: 100%;
+}
+#footer {
+    background: linear-gradient(to bottom, green,#3e6d3e);
+    color: white;
+    padding: 12px;
+}
+#footer a {
+    text-decoration: none;
+    color:rgb(249, 169, 182);
+}
+#footer-navbar {
+    width: 850px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+#footer-columns-navbar {
+    width: 850px;
+    margin: 0px auto;
+    padding: 48px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+#footer-columns-navbar a {
+    display: block;
+    padding: 8px 0px;
 }
