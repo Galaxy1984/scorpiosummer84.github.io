@@ -87,10 +87,6 @@ body {
 .a-tag {
     color: black;
 }
-#images-container{
-    width: 30px;
-    height: 35px;
-}
 .card {
     border: 2px solid #c7d10add;
     color: grey;
