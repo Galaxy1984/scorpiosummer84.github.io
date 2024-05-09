@@ -84,16 +84,17 @@ body {
 .ten-cards {
     display: flex;
 }
-.a-tag {
+.a {
     color: black;
 }
 .card {
+    background-color:#129012 ;
     border: 2px solid #c7d10add;
-    color: grey;
+    color: rgb(77, 54, 75);
     margin: 48px 24px 24px;
     padding: 12px 12px 24px;
     text-align: center;
-    box-shadow: 4px 4px 8px 0px rgb(249, 169, 182);
+    box-shadow: 4px 4px 8px 0px rgb(249, 178, 190);
     flex: 1;
 }
 .card p {
@@ -104,7 +105,7 @@ body {
 }
 #footer {
     background: linear-gradient(to bottom, green,#3e6d3e);
-    color: white;
+    color: lightgreen;
     padding: 12px;
 }
 #footer a {
@@ -116,9 +117,6 @@ body {
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
-}
-.footer-navbar .span {
-    color: lightgreen;
 }
 #footer-columns-navbar {
     width: 850px;
