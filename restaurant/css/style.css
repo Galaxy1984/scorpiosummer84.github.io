@@ -84,6 +84,9 @@ body {
 .ten-cards {
     display: flex;
 }
+.a-tags {
+    color: #c7d10add;
+}
 .a {
     color: black;
 }
@@ -128,4 +131,10 @@ body {
 #footer-columns-navbar a {
     display: block;
     padding: 8px 0px;
+}
+@media scree and (max-width:after
+600px) {
+    body {
+    background-color: rgb(203, 239, 195);
+    }
 }
