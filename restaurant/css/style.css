@@ -12,7 +12,7 @@ body {
     align-items: center;
 }
 #navbar a {
-    text-decoration: none;
+    text-decoration: none; 
     color: rgb(249, 169, 182);
     padding: 24px;
 }
