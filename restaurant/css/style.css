@@ -12,15 +12,82 @@ body {
     align-items: center;
 }
 #navbar a {
+    display: inline-block;
     text-decoration: none; 
     color: rgb(249, 169, 182);
     padding: 24px;
 }
 #navbar #logo {
     margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
 }
 #navbar #logo img {
     width: 150px;
+}
+#navbar a:hover {
+    background: linear-gradient(to top, #bed50c, #3e6d3e);
+}
+.dropdown-container {
+    position: relative;
+}
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+    z-index: 10;
+}
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
+}
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+.dropdown-menu a {
+    background-color: rgb(114, 114, 114);
+    width: 100%;
+    min-width: 200px;
+}
+#navbar .dropdown-menu a:hover {
+    background: rgb(249, 169, 182);
+}
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+#main-section {
+    background: 
+        radial-gradient(at top left, rgb(212, 212, 212), #bed50c);
+    padding: 48px;
+}
+.side-by-side {
+    display: flex;
+    align-items: center;
+    margin: 45px 0px;
+}
+.side-by-side .image-container {
+    flex: 1;
+}
+.side-by-side .text-container {
+    flex: 1;
+    padding: 34px;
+}
+.side-by-side .text-container a {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(249, 169, 182);
+    color: rgb(103, 160, 33);
+    padding: 24px 48px;
+    border-radius: 45px;
 }
 #layout {
     width: 800px;
@@ -50,7 +117,7 @@ body {
 }
 
 #hero .container {
-    color: rgb(248, 243, 236);
+    color: radial-gradient(at top left, rgb(212, 212, 212), #bed50c); 
 }
 #hero .btn{
     display: inline-block;
@@ -59,6 +126,7 @@ body {
     text-align: center;
     text-decoration: none;
     color: grey;
+    background-color: rgb(244, 148, 164);
 }
 #header {
     background-color: burlywood;
@@ -70,6 +138,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 50px;
+    background-color: radial-gradient(at top left, rgb(212, 212, 212), #bed50c) ;
 }
 .item {
    grid-column-start: 1; 
@@ -79,10 +148,7 @@ body {
     width: 90%;
     max-width: 1200px;
     margin: 0px auto;
-    color: rgb(255, 253, 251);
-}
-.ten-cards {
-    display: flex;
+    color: rgb(84, 54, 84);
 }
 .a-tags {
     color: #c7d10add;
@@ -90,21 +156,34 @@ body {
 .a {
     color: black;
 }
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+#card-section {
+    background-color: #c7d10add;
+    color: rgb(70, 70, 70);
+    padding: 48px;
+}
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
 .card {
-    background-color:#129012 ;
-    border: 2px solid #c7d10add;
-    color: rgb(77, 54, 75);
-    margin: 48px 24px 24px;
-    padding: 12px 12px 24px;
-    text-align: center;
-    box-shadow: 4px 4px 8px 0px rgb(249, 178, 190);
     flex: 1;
+    border: 3px solid ;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+}
+.card h3 {
+    font-size: 36px;
+    margin: 0px;
 }
 .card p {
-    font-size: 18px;
-}
-.ten-cards {
-    margin-top: 48px;
+    font-size: 24px;
+    margin: 24px 0px 0px;
 }
 #footer {
     background: linear-gradient(to bottom, green,#3e6d3e);
@@ -132,8 +211,8 @@ body {
     display: block;
     padding: 8px 0px;
 }
-@media scree and (max-width:after
-600px) {
+@media scree and (max-width:
+500px) {
     body {
     background-color: rgb(203, 239, 195);
     }
