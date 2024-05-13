@@ -39,16 +39,34 @@ body {
 .center-column {
     width: 500px;
     margin: 0px auto;
+    align-items: center;
 }
-.grid-container {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    justify-content: space-between;
-    column-width: 25px;
-    
-}
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
 .spacer {
-    height: 100vh;
+    height: 50vh;
 }
 #hero-2 {
     background-image: url("../images/diy.jpg");
@@ -190,7 +208,13 @@ body {
     margin: 48px auto;
     font-size: 24px;
 }
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+@media screen and (max-width: 700px) {
     .topnav a, .topnav input[type=text] {
       float: none;
       display: block;
