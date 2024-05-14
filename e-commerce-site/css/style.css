@@ -82,7 +82,7 @@ div.gallery {
     border: 1px solid #ccc;
     font-family: garamond;
 }
-  div.gallery:hover {
+div.gallery:hover {
     border: 1px solid #777;
 }
 div.gallery img {
@@ -137,6 +137,9 @@ div.desc {
     justify-content: space-around;
     font-family: inkfree;
     font-family: candara;
+}
+.card-content img {
+    width: 100%;
 }
 .card {
     flex: 300px;
